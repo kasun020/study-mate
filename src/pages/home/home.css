@@ -1,0 +1,224 @@
+/* ./pages/home/home.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  /* border: red 2px solid; */
+}
+
+.header {
+  height: 100px;
+  padding: 1rem;
+  /* border: green 2px solid; */
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+.logo {
+  height: 200px; /* Adjust size as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-left: 112px;
+}
+
+.set-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(180deg, #649ef3 0%, #0d63e3 100%);
+  /* Gradient background */
+  color: white;
+  border-radius: 15px;
+  margin-left: 233px;
+  width: 233px; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800; /* Bold text */
+  font-size: 16px;
+  border: none;
+}
+
+.timer {
+  width: 28px;
+  height: 27px;
+}
+
+.nav {
+  display: flex;
+  gap: 150px; /* Space between nav items */
+  /* border: purple 2px solid; */
+  margin-left: 200px;
+}
+
+.nav nav {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-text {
+  font-size: 1.5rem; /* Adjust text size */
+  font-weight: bold; /* Optional styling */
+}
+
+.main-content {
+  display: flex;
+  flex: 1 1 auto; /* Takes remaining space */
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  background-color: #f4f4f4; /* Light gray */
+  padding: 1rem;
+  border: #0d63e3 2px solid; /* Optional border */
+
+  background: linear-gradient(180deg, #065cdd 0%, #e6edf7 100%);
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto; /* Takes remaining space */
+}
+
+.hero {
+  margin-left: 112px;
+  margin-top: 200px;
+}
+
+.black-text {
+  color: black; /* Black color for "Your" and "Companion" */
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+}
+
+.black-text-large {
+  color: black; /* Black color for "Your" and "Companion" */
+  margin-left: -150px;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+}
+
+.white-text {
+  color: white; /* White color for "Smart Learning" */
+  margin-left: 25px;
+
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+}
+
+.background-img {
+  width: 859px;
+  height: 794px;
+  top: 22px;
+  left: 536px;
+  gap: 0px;
+  opacity: 10%;
+}
+
+.description {
+  width: 606px;
+  height: 218px;
+  margin-top: 10px;
+  padding: 10px;
+  opacity: 0px;
+  /* border: red 2px solid; */
+}
+
+.welcome-text {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  margin-left: 17px;
+}
+
+.welcome-description {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  margin-left: 17px;
+}
+
+.hero-img {
+  width: 500px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Allows positioning */
+  right: 200px; /* Aligns image to the right */
+  top: 297px; /* Align with the hero text */
+  z-index: 3; /* Hero image layer above background and hero text */
+}
+
+.log-in-btn {
+  width: 198px;
+  height: 48px;
+  top: 746px;
+  left: 102px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #005fed 0%, #003687 100%);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: justified;
+  color: #ffffff;
+  margin-right: 120px;
+  border: none;
+}
+
+.started-free-btn {
+  width: 238px;
+  height: 48px;
+  top: 746px;
+  left: 319px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #649ef3 0%, #0d63e3 100%);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: justified;
+  color: #ffffff;
+  border: none;
+}
+.left {
+  background-color: #f4f4f4; /* Light gray */
+  width: 60%; /* Adjust width as needed */
+  padding: 1rem;
+  border: blue 2px solid; /* Optional border */
+}
+
+.right {
+  background-color: #f4f4f4; /* Light gray */
+  width: 40%; /* Adjust width as needed */
+  padding: 1rem;
+  border: brown 2px solid; /* Optional border */
+}
